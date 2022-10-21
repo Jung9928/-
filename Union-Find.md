@@ -1,4 +1,4 @@
-#### Union-Find (C++) ####
+## Union-Find (C++) 
 ```C++
 #include <cstdio>
 #include <iostream>
@@ -71,7 +71,7 @@ int main()
 }
 ```
 
-#### Union-Find (JAVA) ####
+## Union-Find (JAVA) 
 ```JAVA
 public class Main
 {
