@@ -69,6 +69,25 @@ int main()
   
   return 0;
 }
+
+----------------------------
+/**
+        결과
+node : 1 || parent : 1
+node : 2 || parent : 1
+node : 3 || parent : 1
+node : 4 || parent : 1
+node : 5 || parent : 5
+node : 6 || parent : 5
+node : 7 || parent : 5
+node : 8 || parent : 5
+node : 9 || parent : 9
+node : 10 || parent : 9
+1과 5는 연결 되어있나? : false
+1과 3은 연결 되어있나? : true
+5과 10은 연결 되어있나? : false
+*/
+----------------------------
 ```
 
 ## Union-Find (JAVA) 
@@ -134,5 +153,17 @@ public class Main
 
     }
 }
+
+
+----------------------------
+/**
+        결과
+< 연결 전>
+1 2 3 4 5 6 7 8 9 10
+
+< 연결 후>
+1 1 1 1 5 5 5 5 9 9
+*/
+----------------------------
 
 ```
