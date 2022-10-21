@@ -60,7 +60,6 @@ int main()
   
   // 결과 확인
   for(int i=1; i<=10; i++)
-    //printf("node : %d || parent : %d\n", i, parent[i]);
     cout<<"node : "<<i<<" || parent : "<<parent[i]<<"\n";
     
   cout<<"1과 5는 연결 되어있나? : "<<boolalpha<<findParent(parent, 1, 5)<<boolalpha<<"\n";
